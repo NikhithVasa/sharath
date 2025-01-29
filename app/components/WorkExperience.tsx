@@ -1,22 +1,36 @@
 import { motion } from "framer-motion"
-
 const workExperience = [
   {
-    company: "Disney",
-    period: "2019 - Present",
-    role: "Full Stack Developer",
+    company: "Elevance Health",
+    period: "Aug 2023 - Present",
+    role: "Conversational AI Bot Developer",
   },
   {
-    company: "Spirit",
-    period: "2017 - 2019",
-    role: "Software Engineer",
+    company: "Concentrix",
+    period: "Nov 2019 - Sep 2021",
+    role: "Senior Software Engineer",
   },
   {
-    company: "T-Mobile",
-    period: "2015 - 2017",
-    role: "Junior Developer",
+    company: "Wipro",
+    period: "Nov 2018 - Sep 2019",
+    role: "Consultant – Developer",
   },
-]
+  {
+    company: "Wipro",
+    period: "Nov 2017 - Nov 2018",
+    role: "UI Developer",
+  },
+  {
+    company: "ICROZ SOLUTIONS PRIVATE LIMITED",
+    period: "Jan 2017 - Oct 2017",
+    role: "Content Developer",
+  },
+  {
+    company: "ICROZ SOLUTIONS PRIVATE LIMITED",
+    period: "Jan 2016 - Dec 2016",
+    role: "Junior Web Developer",
+  },
+];
 
 export default function WorkExperience() {
   return (
