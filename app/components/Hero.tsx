@@ -11,7 +11,7 @@ export default function Hero() {
         className="relative w-64 h-64 mb-8 overflow-hidden rounded-full border-4 border-gray-300 shadow-lg"
       >
         <Image
-          src="/placeholder.svg?height=256&width=256"
+          src="/pic.png?height=256&width=256"
           alt="Profile Picture"
           width={256}
           height={256}
@@ -24,7 +24,7 @@ export default function Hero() {
         transition={{ delay: 0.2 }}
         className="text-4xl font-bold mb-4 text-center text-gray-100"
       >
-        Your Name
+        Sharath kumar Gadivemula
       </motion.h1>
       <motion.p
         initial={{ y: 50, opacity: 0 }}
